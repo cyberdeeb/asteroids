@@ -13,6 +13,7 @@ class Player(CircleShape):
         super().__init__(x,y,constants.PLAYER_RADIUS)
         self.rotation = 0
         self.shot_timer = 0
+        self.score = 0
 
     # in the player class
     def triangle(self):
